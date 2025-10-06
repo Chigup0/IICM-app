@@ -1,0 +1,9 @@
+{
+  "type": "dir",
+  "subNodes": {
+    "pubspec.yaml": {
+      "type": "yaml",
+      "annotation": "firebase_core: ^3.4.0\n  cloud_firestore: ^5.3.0"
+    }
+  }
+}
