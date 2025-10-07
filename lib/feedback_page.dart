@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+// import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:iism/widgets/widgets.dart';
 
 import 'DashBoard/pages/dashboard.dart';
@@ -22,11 +22,11 @@ class _FeedbackPageState extends State<FeedbackPage> {
     String feedback = feedbackController.text.trim();
 
     if (feedback.isNotEmpty) {
-      await FirebaseFirestore.instance.collection('feedback').add({
-        'email': email.isEmpty ? null : email, // Email is optional
-        'feedback': feedback,
-        'timestamp': FieldValue.serverTimestamp(), // Add a timestamp
-      });
+      // await FirebaseFirestore.instance.collection('feedback').add({
+      //   'email': email.isEmpty ? null : email, // Email is optional
+      //   'feedback': feedback,
+      //   'timestamp': FieldValue.serverTimestamp(), // Add a timestamp
+      // });
       emailController.clear();
       feedbackController.clear();
 
