@@ -1,4 +1,4 @@
-# iism
+# Inter IIT Cultural Meet 
 
 A new Flutter project.
 
